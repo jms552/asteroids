@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5497E65819D0F5330057CC2E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5497E65719D0F5330057CC2E /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13533DB71EB11E4700A22ACF /* exploding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exploding.jpg; sourceTree = SOURCE_ROOT; };
+		13533DB81EB11E4700A22ACF /* flowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowers.jpg; sourceTree = SOURCE_ROOT; };
+		13533DB91EB11E4700A22ACF /* genderexplosion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = genderexplosion.jpg; sourceTree = SOURCE_ROOT; };
+		13533DBB1EB11E4700A22ACF /* space2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space2.jpg; sourceTree = SOURCE_ROOT; };
+		13533DBD1EB11FE000A22ACF /* en */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = en; path = en.lproj/Vesta_Rotation.gif; sourceTree = "<group>"; };
+		13533DBF1EB1201300A22ACF /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/missile3.png; sourceTree = "<group>"; };
+		5497E65419D0F5330057CC2E /* Asteroid$!! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Asteroid$!!"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5497E65719D0F5330057CC2E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5497E65A19D0F5340057CC2E /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		5497E65B19D0F5340057CC2E /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		5497E65C19D0F5340057CC2E /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		5497E65D19D0F5340057CC2E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5497E65219D0F5330057CC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5497E64C19D0F5320057CC2E = {
+			isa = PBXGroup;
+			children = (
+				5497E65619D0F5330057CC2E /* Asteroid$!! */,
+				5497E65519D0F5330057CC2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5497E65519D0F5330057CC2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5497E65419D0F5330057CC2E /* Asteroid$!! */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5497E65619D0F5330057CC2E /* Asteroid$!! */ = {
+			isa = PBXGroup;
+			children = (
+				5497E65719D0F5330057CC2E /* main.cpp */,
+				5497E65919D0F5340057CC2E /* Resources */,
+			);
+			path = "Asteroid$!!";
+			sourceTree = "<group>";
+		};
+		5497E65919D0F5340057CC2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13533DBE1EB11FE000A22ACF /* Vesta_Rotation.gif */,
+				13533DB71EB11E4700A22ACF /* exploding.jpg */,
+				13533DB81EB11E4700A22ACF /* flowers.jpg */,
+				13533DB91EB11E4700A22ACF /* genderexplosion.jpg */,
+				13533DC01EB1201300A22ACF /* missile3.png */,
+				13533DBB1EB11E4700A22ACF /* space2.jpg */,
+				5497E65A19D0F5340057CC2E /* cute_image.jpg */,
+				5497E65B19D0F5340057CC2E /* nice_music.ogg */,
+				5497E65C19D0F5340057CC2E /* sansation.ttf */,
+				5497E65D19D0F5340057CC2E /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5497E65319D0F5330057CC2E /* Asteroid$!! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5497E66019D0F5340057CC2E /* Build configuration list for PBXNativeTarget "Asteroid$!!" */;
+			buildPhases = (
+				5497E65119D0F5330057CC2E /* Sources */,
+				5497E65219D0F5330057CC2E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asteroid$!!";
+			productName = "Asteroid$!!";
+			productReference = 5497E65419D0F5330057CC2E /* Asteroid$!! */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5497E64D19D0F5320057CC2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Georgetown University";
+			};
+			buildConfigurationList = 5497E65019D0F5320057CC2E /* Build configuration list for PBXProject "Asteroid$!!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5497E64C19D0F5320057CC2E;
+			productRefGroup = 5497E65519D0F5330057CC2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5497E65319D0F5330057CC2E /* Asteroid$!! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5497E65119D0F5330057CC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5497E65819D0F5330057CC2E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13533DBE1EB11FE000A22ACF /* Vesta_Rotation.gif */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13533DBD1EB11FE000A22ACF /* en */,
+			);
+			name = Vesta_Rotation.gif;
+			sourceTree = SOURCE_ROOT;
+		};
+		13533DC01EB1201300A22ACF /* missile3.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13533DBF1EB1201300A22ACF /* en */,
+			);
+			name = missile3.png;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5497E65E19D0F5340057CC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		5497E65F19D0F5340057CC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		5497E66119D0F5340057CC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5497E66219D0F5340057CC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5497E65019D0F5320057CC2E /* Build configuration list for PBXProject "Asteroid$!!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5497E65E19D0F5340057CC2E /* Debug */,
+				5497E65F19D0F5340057CC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5497E66019D0F5340057CC2E /* Build configuration list for PBXNativeTarget "Asteroid$!!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5497E66119D0F5340057CC2E /* Debug */,
+				5497E66219D0F5340057CC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5497E64D19D0F5320057CC2E /* Project object */;
+}
